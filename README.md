@@ -5,7 +5,7 @@
 **Run using - http://localhost:8014/h2**
 
 ## Specifications
-Created **Spring Starter Project** with **dependencies** auto-generated on *pom.xml* for the following:
+Created **Spring Starter Project** with **dependencies** auto-generated on ***pom.xml*** for the following:
 1) Spring Web Services
 2) Spring Data JPA
 3) ***H2 Database***
