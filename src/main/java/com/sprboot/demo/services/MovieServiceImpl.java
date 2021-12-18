@@ -20,19 +20,16 @@ public class MovieServiceImpl implements IMovieService{
 
 	@Override
 	public List<Movie> getmovie() {
-		// TODO Auto-generated method stub
 		return mr.findAll();
 	}
 
 	@Override
 	public void delbyid(int mid) {
-		// TODO Auto-generated method stub
 		mr.deleteById(mid);
 	}
 
 	@Override
 	public Movie updmovie(Movie m) {
-		// TODO Auto-generated method stub
 		return mr.save(m);
 	}
 
