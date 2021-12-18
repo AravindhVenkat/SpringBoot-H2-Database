@@ -4,6 +4,8 @@
 
 **Run using - http://localhost:8014/h2**
 
+*Test Connection, then proceed*
+
 ## Specifications
 Created **Spring Starter Project** with **dependencies** auto-generated on ***pom.xml*** for the following:
 1) Spring Web Services
