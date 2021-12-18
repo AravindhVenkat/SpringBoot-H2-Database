@@ -22,7 +22,14 @@ Created **Spring Starter Project** with **dependencies** auto-generated on *pom.
 3) Repository - MovieRepository extends JpaRepository<Movie,Integer>
 4) Services – ServiceClass & ServiceClassInterface to perform *methods* - **@Autowired in MovieServiceImpl interface**
 
+**Methods are *simpler* since *H2 DATABASE CONSOLE* provides functionality**
+
 ### Code Snippet from MovieServiceImpl.java
+
+@Autowired
+
+MovieRepository mr;
+
 @Override
 
 public List<Movie> getmovie() {
